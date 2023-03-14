@@ -13,11 +13,12 @@ public class Programa {
 		int resultadoSoma = c1.soma(x, y);
 		int resultadoSubtrai = c1.subtrai(x, y);
 		int resultadoMultiplica = c1.multiplica(x, y);
+		int resultadoDividi = c1.dividi(x, y);
 		
 		System.out.println(resultadoSoma);
 		System.out.println(resultadoSubtrai);
 		System.out.println(resultadoMultiplica);
-		
+		System.out.println(resultadoDividi);
 		
 		
 		sc.close();

@@ -10,11 +10,13 @@ public class Programa {
 		int x = sc.nextInt();
 		int y = sc.nextInt();
 		
-		int resultadoSoma = c1.somar(x, y);
-		int resultadoSubtrai = c1.subtrair(x, y);
+		int resultadoSoma = c1.soma(x, y);
+		int resultadoSubtrai = c1.subtrai(x, y);
+		int resultadoMultiplica = c1.multiplica(x, y);
 		
 		System.out.println(resultadoSoma);
 		System.out.println(resultadoSubtrai);
+		System.out.println(resultadoMultiplica);
 		
 		
 		
